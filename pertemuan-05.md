@@ -1,3 +1,4 @@
+# interaction with user
 2.6.12 SECTION SUMMARY
 1. The print() function sends data to the console, while the input() function gets data from the console.
 
