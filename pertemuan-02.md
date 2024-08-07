@@ -1,4 +1,4 @@
-# pertemuan 02
+# operators - data manipulation
 
 2.3.4 SECTION SUMMARY
 Key takeaways
