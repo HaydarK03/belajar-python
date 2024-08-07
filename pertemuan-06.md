@@ -1,4 +1,5 @@
-# 3.1.13 SECTION SUMMARY
+# if-elif-else
+3.1.13 SECTION SUMMARY
 1. The comparison (otherwise known as relational) operators are used to compare values. The table below illustrates how the comparison operators work, assuming that x = 0, y = 1, and z = 0:
 
 ![screenshot-skillsforall_com-2024_08_07-14_28_37](https://github.com/user-attachments/assets/15e6a35d-3dba-463e-a0fd-caf66dc9fe5d)
