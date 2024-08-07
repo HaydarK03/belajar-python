@@ -1,3 +1,4 @@
+# variable
 2.4.11 SECTION SUMMARY
 A variable is a named location reserved to store values in the memory. A variable is created or initialized automatically when you assign a value to it for the first time. (2.1.4.1)
 
