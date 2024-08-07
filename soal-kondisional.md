@@ -29,6 +29,18 @@ Spathiphyllum
 Expected output:
 Yes - Spathiphyllum is the best plant ever
 
+### solution
+```
+name = input("Enter flower name: ")
+
+if name == "Spathiphyllum":
+    print("Yes - Spathiphyllum is the best plant ever!")
+elif name == "spathiphyllum":
+    print("No, I want a big Spathiphyllum!")
+else:
+    print("Spathiphyllum! Not", name + "!")
+```
+	
 # 3.1.11   LAB   Essentials of the if-else statement
 ## Scenario
 Once upon a time there was a land – a land of milk and honey, inhabited by happy and prosperous people. The people paid taxes, of course – their happiness had limits. The most important tax, called the Personal Income Tax (PIT for short) had to be paid once a year, and was evaluated using the following rule:
@@ -65,6 +77,22 @@ Sample input:
 -100
 Expected output:
 The tax is: 0.0 thalers
+
+### solution
+```
+income = float(input("Enter the annual income: "))
+
+if income < 85528:
+	tax = income * 0.18 - 556.02
+else:
+	tax = (income - 85528) * 0.32 + 14839.02
+
+if tax < 0.0:
+	tax = 0.0
+
+tax = round(tax, 0)
+print("The tax is:", tax, "thalers")
+ ```
 
 # 3.1.12   LAB   Essentials of the if-elif-else statement
 ## Scenario
@@ -110,3 +138,20 @@ Sample input:
 1580
 Expected output:
 Not within the Gregorian calendar period
+
+### solution
+```
+year = int(input("Enter a year: "))
+
+if year < 1582:
+	print("Not within the Gregorian calendar period")
+else:
+	if year % 4 != 0:
+		print("Common year")
+	elif year % 100 != 0:
+		print("Leap year")
+	elif year % 400 != 0:
+		print("Common year")
+	else:
+		print("Leap year")
+```
