@@ -1,3 +1,4 @@
+# comments
 2.5.4 SECTION SUMMARY
 Comments can be used to leave additional information in code. They are omitted at runtime. The information left in the source code is addressed to human readers. In Python, a comment is a piece of text that begins with #. The comment extends to the end of the line.
 
