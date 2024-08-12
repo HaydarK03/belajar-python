@@ -5,7 +5,7 @@ Your task here is even more special than before: you must redesign the (ugly) vo
 1. a for loop;
 2. the concept of conditional execution (if-elif-else)
 3. the continue statement.
-4. 
+
 Your program must:
 
 - ask the user to enter a word;
